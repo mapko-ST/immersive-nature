@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Formation Front End - La Manu" />
+    <link
+      rel="icon"
+      type="png"
+      sizes="16x16"
+      href="asset/image/immersive_nature_logo_2.png"
+    />
+    <link rel="stylesheet" href="asset/css/formulaire.css" />
+    <title>Immersive Nature - Contacts</title>
+  </head>
+  <body>
+    <a class="button" href="index.html">Retour sur le site</a>
+    <form action="formulaire">
+      <fieldset id="part-1">
+        <legend id="identite-legend">Formulaire de contact</legend>
+        <ol>
+          <li>
+            <label for="name">Nom:</label>
+            <input type="text" name="surname" id="name" value="Nom" />
+          </li>
+          <li>
+            <label for="surname">Prénom:</label>
+            <input type="text" name="name" id="prénom" value="Prénom" />
+          </li>
+          <li>
+            <label for="mail">Adresse mail:</label>
+            <input type="text" name="mail" id="mail" value="Adresse mail" />
+          </li>
+          <li>
+            <label class="adress" for="adress">Message:</label>
+            <textarea
+              name="message"
+              id="messsage"
+              cols="30"
+              rows="10"
+              value="Votre message ici"
+            ></textarea>
+          </li>
+        </ol>
+        <input id="submit" type="submit" value="Envoyer" />
+      </fieldset>
+    </form>
+  </body>
+</html>

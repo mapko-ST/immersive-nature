@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,200;0,400;1,200;1,400&family=Raleway:wght@300;400&display=swap'); 
+body {
+        background-color: #a0a678  ;
+        font-family: 'Montserrat Alternates', sans-serif; 
+}
+h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+}
+.button {
+    background-color: #eff5cb;
+    border: 2px solid #a0a678;
+    border-radius: 0 30px 0 30px;
+    padding: 20px 0;
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+
+}
